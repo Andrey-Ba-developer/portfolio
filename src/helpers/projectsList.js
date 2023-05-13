@@ -1,65 +1,49 @@
-import project01 from "./../img/projects/01.jpg"
-import project01Big from "./../img/projects/01-big.jpg"
+import project01 from "./../img/projects/cars.jpg"
+import project01Big from "./../img/projects/cars-big.jpg"
 
-import project02 from "./../img/projects/02.jpg"
-import project02Big from "./../img/projects/02-big.jpg"
+import project02 from "./../img/projects/weather-big.jpg"
+import project02Big from "./../img/projects/weather-big.jpg"
 
-import project03 from "./../img/projects/03.jpg"
-import project03Big from "./../img/projects/03-big.jpg"
+import project03 from "./../img/projects/shelter.jpg"
+import project03Big from "./../img/projects/shelter-big.jpg"
 
-import project04 from "./../img/projects/04.jpg"
-import project04Big from "./../img/projects/04-big.jpg"
+import project04 from "./../img/projects/css-bayan.jpg"
+import project04Big from "./../img/projects/css-bayan-big.jpg"
 
-import project05 from "./../img/projects/05.jpg"
-import project05Big from "./../img/projects/05-big.jpg"
-
-import project06 from "./../img/projects/06.jpg"
-import project06Big from "./../img/projects/06-big.jpg"
 
 const projects = [
 	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
+		title: 'Сar service',
+		skills: 'HTML, CSS, Responsive design',
 		img: project01,
 		imgBig: project01Big,
 		gitHubLink: 'https://github.com',
+		link: 'https://andrey-ba-developer.github.io/09.01.23-Cars-final/#en',
 	},
 	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
+		title: 'site weather',
+		skills: 'HTML, CSS, Responsive design, JavaScript, working with API, Git',
 		img: project02,
 		imgBig: project02Big,
 		gitHubLink: 'https://github.com',
+		link: 'https://andrey-ba-developer.github.io/siteWether/',
 	},
 	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
+		title: 'site shelter',
+		skills: 'HTML, CSS, Responsive design, JavaScript, Git',
 		img: project03,
 		imgBig: project03Big,
 		gitHubLink: 'https://github.com',
+		link: 'https://rolling-scopes-school.github.io/andrey-ba-developer-JSFE2023Q1/shelter/pages/main/index.html',
 	},
 	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
+		title: 'Accordion',
+		skills: 'HTML, CSS',
 		img: project04,
 		imgBig: project04Big,
 		gitHubLink: 'https://github.com',
-	},
-	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
-		img: project05,
-		imgBig: project05Big,
-		gitHubLink: 'https://github.com',
-	},
-	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
-		img: project06,
-		imgBig: project06Big,
-		gitHubLink: 'https://github.com',
+		link: 'https://andrey-ba-developer.github.io/cssBayan/cssBayan/',
 	}
-	
 ];
 
-export {projects}
+export { projects }

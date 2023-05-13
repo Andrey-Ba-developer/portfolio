@@ -4,10 +4,10 @@
 :root {
 	/* Colors */
 	--blackpure: #000;
-	--black: #171718;
+	--black: #000000;
 	--black-border: #26292d;
 	--white: #fff;
-	--purple: #5c62ec;
+	--purple: #0480b9;
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -35,7 +35,7 @@
 
 .dark {
 	/* Dark mode */
-	--page-bg: #252526;
+	--page-bg: #111114;
 	--text-color: var(--white);
 
 	--title-1: var(--white);
@@ -224,35 +224,7 @@ body {
 	margin-top: 0.5em;
 }
 
-/* Footer */
 
-.footer {
-	margin-top: auto;
-	padding: 60px 0 50px;
-	background-color: var(--footer-bg);
-	color: var(--footer-text);
-}
-
-.footer__wrapper {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 27px;
-}
-
-.social {
-	display: flex;
-	column-gap: 30px;
-	align-items: center;
-}
-
-.copyright {
-	font-size: 16px;
-}
-
-.copyright p + p {
-	margin-top: 0.5em;
-}
 
 @media (max-width: 620px) {
 	/* Header  */

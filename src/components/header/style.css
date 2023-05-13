@@ -8,11 +8,13 @@
 	justify-content: center;
 	align-items: center;
 
-	background-color: var(--header-bg);
-	background-image: url('./../../img/header-bg.png');
+	background-image: url("../../img/background-2.jpg");
+	background-color: rgba(0, 0, 0, 0.5);
 	background-repeat: no-repeat;
-	background-size: auto;
 	background-position: center center;
+	background-size: cover;
+
+
 
 	color: var(--header-text);
 	text-align: center;
@@ -46,6 +48,6 @@
 	line-height: 1.333;
 }
 
-.header__text p + p {
+.header__text p+p {
 	margin-top: 0.5em;
 }

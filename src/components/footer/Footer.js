@@ -9,21 +9,21 @@ import linkedIn from "../.././img/icons/linkedIn.svg";
 
 const Footer = () => {
 	return (<footer className="footer">
-	<div className="container">
-		<div className="footer__wrapper">
-			<ul className="social">
-				<li className="social__item"><a href="#!"><img src={vk} alt="Link" /></a></li>
-				<li className="social__item"><a href="#!"><img src={instagram} alt="Link" /></a></li>
-				<li className="social__item"><a href="#!"><img src={twitter} alt="Link" /></a></li>
-				<li className="social__item"><a href="#!"><img src={gitHub} alt="Link" /></a></li>
-				<li className="social__item"><a href="#!"><img src={linkedIn} alt="Link" /></a></li>
-			</ul>
-			<div className="copyright">
-				<p>© 2022 frontend-dev.com</p>
+		<div className="container">
+			<div className="footer__wrapper">
+				<ul className="social">
+					<li className="social__item"><a href="https://vk.com/" target="_blank"><img src={vk} alt="Link" /></a></li>
+					<li className="social__item"><a href="instagram.com" target="_blank"><img src={instagram} alt="Link" /></a></li>
+					<li className="social__item"><a href="twitter.com" target="_blank"><img src={twitter} alt="Link" /></a></li>
+					<li className="social__item"><a href="https://github.com/Andrey-Ba-developer" target="_blank"><img src={gitHub} alt="Link" /></a></li>
+					<li className="social__item"><a href="linkedin.com" target="_blank"><img src={linkedIn} alt="Link" /></a></li>
+				</ul>
+				<div className="copyright">
+					<p>© 2023 Andrey-Ba-developer</p>
+				</div>
 			</div>
 		</div>
-	</div>
-</footer>);
+	</footer>);
 }
- 
+
 export default Footer;

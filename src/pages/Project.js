@@ -11,19 +11,21 @@ const Project = () => {
 			<div className="container">
 				<div className="project-details">
 
-					<h1 className="title-1">{project.title}</h1>
+					<a href={project.link} target="_blank" rel="noopener noreferrer">
 
-					<img
-						src={project.imgBig}
-						alt={project.title}
-						className="project-details__cover" />
+						<h1 className="title-1">{project.title}</h1>
+						<img
+							src={project.imgBig}
+							alt={project.title}
+							className="project-details__cover" />
 
+					</a>
 					<div className="project-details__desc">
 						<p>Skills: {project.skills}</p>
 					</div>
 
 					{project.gitHubLink && (
-						<BtnGitHub link="https://github.com" />
+						<BtnGitHub link="https://github.com/Andrey-Ba-developer" />
 					)}
 
 

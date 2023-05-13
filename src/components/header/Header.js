@@ -8,7 +8,7 @@ const Header = () => {
 			a frontend developer
 		</h1>
 		<div className="header__text">
-			<p>with passion for learning and creating.</p>
+			<p>with enthusiasm for learning and creativity.</p>
 		</div>
 		<a href="#!" className="btn">Download CV</a>
 	</div>

@@ -15,7 +15,7 @@ const normalLink = 'nav-list__link';
 				<div className="nav-row">
 
 					<NavLink to="/" className="logo">
-						<strong>Freelancer</strong>
+						<strong>Portfolio</strong>
 					</NavLink>
 
 					<BtnDarkMod/>
