@@ -12,11 +12,11 @@ const Footer = () => {
 		<div className="container">
 			<div className="footer__wrapper">
 				<ul className="social">
-					<li className="social__item"><a href="https://vk.com/" target="_blank"><img src={vk} alt="Link" /></a></li>
-					<li className="social__item"><a href="instagram.com" target="_blank"><img src={instagram} alt="Link" /></a></li>
-					<li className="social__item"><a href="twitter.com" target="_blank"><img src={twitter} alt="Link" /></a></li>
-					<li className="social__item"><a href="https://github.com/Andrey-Ba-developer" target="_blank"><img src={gitHub} alt="Link" /></a></li>
-					<li className="social__item"><a href="linkedin.com" target="_blank"><img src={linkedIn} alt="Link" /></a></li>
+					<li className="social__item"><a href="https://vk.com/" target="_blank" rel="noreferrer"><img src={vk} alt="Link" /></a></li>
+					<li className="social__item"><a href="instagram.com" target="_blank" rel="noreferrer"><img src={instagram} alt="Link" /></a></li>
+					<li className="social__item"><a href="twitter.com" target="_blank" rel="noreferrer"><img src={twitter} alt="Link" /></a></li>
+					<li className="social__item"><a href="https://github.com/Andrey-Ba-developer" target="_blank" rel="noreferrer"><img src={gitHub} alt="Link" /></a></li>
+					<li className="social__item"><a href="linkedin.com" target="_blank" rel="noreferrer"><img src={linkedIn} alt="Link" /></a></li>
 				</ul>
 				<div className="copyright">
 					<p>© 2023 Andrey-Ba-developer</p>
