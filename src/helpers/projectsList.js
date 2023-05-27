@@ -7,10 +7,6 @@ import project02Big from "./../img/projects/weather-big.jpg"
 import project03 from "./../img/projects/shelter.jpg"
 import project03Big from "./../img/projects/shelter-big.jpg"
 
-import project04 from "./../img/projects/css-bayan.jpg"
-import project04Big from "./../img/projects/css-bayan-big.jpg"
-
-
 const projects = [
 	{
 		title: 'Сar service',
@@ -35,14 +31,6 @@ const projects = [
 		imgBig: project03Big,
 		gitHubLink: 'https://github.com',
 		link: 'https://rolling-scopes-school.github.io/andrey-ba-developer-JSFE2023Q1/shelter/pages/main/index.html',
-	},
-	{
-		title: 'Accordion',
-		skills: 'HTML, CSS',
-		img: project04,
-		imgBig: project04Big,
-		gitHubLink: 'https://github.com',
-		link: 'https://andrey-ba-developer.github.io/cssBayan/cssBayan/',
 	}
 ];
 
