@@ -36,7 +36,7 @@ const projects = [
 		link: 'https://rolling-scopes-school.github.io/andrey-ba-developer-JSFE2023Q1/shelter/pages/main/index.html',
 	},
 	{
-		title: 'Xiaomi-Shop',
+		title: 'Xiaomi shop',
 		skills: 'HTML5, CSS, Responsive design, JavaScript, React, Material UI, LocalStorage',
 		img: project04,
 		imgBig: project04Big,

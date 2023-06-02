@@ -10,7 +10,10 @@ const Home = () => {
 					<ul className="content-list">
 						<li className="content-list__item">
 							<h2 className="title-2">Frontend</h2>
-							<p>JavaScript, ReactJS, Redux, HTML, CSS, SCSS, NPM, BootStrap, Webpack, Gulp, Git, Figma</p>
+							<p>
+								HTML, HTML5, CSS3, JavaScript, jQuery, React Redux, TypeScript, Git, Jira, Bootstrap, Gulp, Адаптивная верстка, BEM, Material UI, Next.js.
+
+							</p>
 						</li>
 					</ul>
 
